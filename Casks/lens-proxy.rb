@@ -14,7 +14,7 @@ cask "lens-proxy" do
   end
 
   auto_updates true
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "Lens.app"
   binary "#{appdir}/Lens.app/Contents/MacOS/lens-mcp", target: "lens"
