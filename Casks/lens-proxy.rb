@@ -1,6 +1,6 @@
 cask "lens-proxy" do
-  version "1.0.11"
-  sha256 "5850d008427d9f6684aa13cdda85aca8e759b7c736b2e7671bf04353816aade4"
+  version "1.1.0"
+  sha256 "0d20e312299ccc957e7abb71537f1a14638cd1c3bd5391b0a61cb3c06dab17aa"
 
   url "https://whitehyun.github.io/lens-updates/Lens-#{version}.dmg",
       verified: "whitehyun.github.io/lens-updates/"
